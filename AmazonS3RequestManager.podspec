@@ -11,7 +11,7 @@ s.source = { :git => 'https://github.com/AnthonyMDev/AmazonS3RequestManager.git'
 s.ios.frameworks = 'MobileCoreServices'
 s.osx.frameworks = 'CoreServices'
 
-s.ios.deployment_target = '9.0'
+s.ios.deployment_target = '8.0'
 s.osx.deployment_target = '10.11'
 
 s.source_files = 'Source/*.{h,m,swift}'
