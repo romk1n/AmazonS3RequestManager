@@ -11,13 +11,13 @@ s.source = { :git => 'https://github.com/AnthonyMDev/AmazonS3RequestManager.git'
 s.ios.frameworks = 'MobileCoreServices'
 s.osx.frameworks = 'CoreServices'
 
-s.ios.deployment_target = '9.0'
+s.ios.deployment_target = '8.0'
 s.osx.deployment_target = '10.11'
 
 s.source_files = 'Source/*.{h,m,swift}'
 
 s.requires_arc = true
 
-s.dependency 'Alamofire', '~> 4.0'
-s.dependency 'SWXMLHash', '~> 2.0'
+s.dependency 'Alamofire', '~> 3.5'
+s.dependency 'SWXMLHash', '~> 3.0'
 end
